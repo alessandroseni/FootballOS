@@ -1,0 +1,50 @@
+{
+  "pins" : [
+    {
+      "identity" : "cocoalumberjack",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/CocoaLumberjack/CocoaLumberjack.git",
+      "state" : {
+        "revision" : "67ec5818a757aba4d7c534e21a905d878d128dbf",
+        "version" : "3.8.1"
+      }
+    },
+    {
+      "identity" : "svgimageswiftui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/alfianlosari/SVGImageSwiftUI",
+      "state" : {
+        "branch" : "main",
+        "revision" : "f9db23eac190615dd3c5fb0788f440a840cd0fe5"
+      }
+    },
+    {
+      "identity" : "svgkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/alfianlosari/SVGKit",
+      "state" : {
+        "branch" : "3.x",
+        "revision" : "9306d7c06eaa59af1fd0efe01edec45ef997025a"
+      }
+    },
+    {
+      "identity" : "swift-log",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-log.git",
+      "state" : {
+        "revision" : "532d8b529501fb73a2455b179e0bbb6d49b652ed",
+        "version" : "1.5.3"
+      }
+    },
+    {
+      "identity" : "xcafootballdataclient",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/alfianlosari/XCAFootballDataClient",
+      "state" : {
+        "revision" : "c113ef1952b5c085bc52278fc6ef91722fa7c54c",
+        "version" : "0.1.0"
+      }
+    }
+  ],
+  "version" : 2
+}

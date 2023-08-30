@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2018C752A9FAE9700AD8C7C /* XCAFootballDataClient in Frameworks */ = {isa = PBXBuildFile; productRef = D2018C742A9FAE9700AD8C7C /* XCAFootballDataClient */; };
+		D2018C782A9FAEDB00AD8C7C /* StandingsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2018C772A9FAEDB00AD8C7C /* StandingsTableView.swift */; };
+		D2018C7B2A9FB07D00AD8C7C /* StandingsTableObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2018C7A2A9FB07D00AD8C7C /* StandingsTableObservable.swift */; };
+		D2018C7D2A9FB0CB00AD8C7C /* FetchPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2018C7C2A9FB0CB00AD8C7C /* FetchPhase.swift */; };
+		D2018C802A9FB2EB00AD8C7C /* scorers.json in Resources */ = {isa = PBXBuildFile; fileRef = D2018C7F2A9FB2EB00AD8C7C /* scorers.json */; };
+		D2018C822A9FB2F900AD8C7C /* standings.json in Resources */ = {isa = PBXBuildFile; fileRef = D2018C812A9FB2F900AD8C7C /* standings.json */; };
+		D2018C842A9FB32200AD8C7C /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2018C832A9FB32200AD8C7C /* Utility.swift */; };
+		D216B66B2A9FEA650085D539 /* StandingsTabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D216B66A2A9FEA650085D539 /* StandingsTabItemView.swift */; };
+		D216B66D2A9FEE110085D539 /* TopScorersTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D216B66C2A9FEE110085D539 /* TopScorersTableView.swift */; };
+		D216B66F2A9FEE4F0085D539 /* TopScorersTableObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D216B66E2A9FEE4F0085D539 /* TopScorersTableObservable.swift */; };
+		D21BD0BD2A9FD6B8009C71B8 /* SVGImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = D21BD0BC2A9FD6B8009C71B8 /* SVGImageSwiftUI */; };
 		D26BF13A2A9FACF20086C6CC /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = D26BF1392A9FACF20086C6CC /* RealityKitContent */; };
 		D26BF13C2A9FACF20086C6CC /* FootballOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26BF13B2A9FACF20086C6CC /* FootballOSApp.swift */; };
 		D26BF13E2A9FACF20086C6CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26BF13D2A9FACF20086C6CC /* ContentView.swift */; };
@@ -15,6 +26,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D2018C772A9FAEDB00AD8C7C /* StandingsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingsTableView.swift; sourceTree = "<group>"; };
+		D2018C7A2A9FB07D00AD8C7C /* StandingsTableObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingsTableObservable.swift; sourceTree = "<group>"; };
+		D2018C7C2A9FB0CB00AD8C7C /* FetchPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchPhase.swift; sourceTree = "<group>"; };
+		D2018C7F2A9FB2EB00AD8C7C /* scorers.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = scorers.json; sourceTree = "<group>"; };
+		D2018C812A9FB2F900AD8C7C /* standings.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = standings.json; sourceTree = "<group>"; };
+		D2018C832A9FB32200AD8C7C /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		D216B66A2A9FEA650085D539 /* StandingsTabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingsTabItemView.swift; sourceTree = "<group>"; };
+		D216B66C2A9FEE110085D539 /* TopScorersTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopScorersTableView.swift; sourceTree = "<group>"; };
+		D216B66E2A9FEE4F0085D539 /* TopScorersTableObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopScorersTableObservable.swift; sourceTree = "<group>"; };
 		D26BF1342A9FACF20086C6CC /* FootballOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootballOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D26BF1382A9FACF20086C6CC /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		D26BF13B2A9FACF20086C6CC /* FootballOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballOSApp.swift; sourceTree = "<group>"; };
@@ -29,19 +49,57 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D21BD0BD2A9FD6B8009C71B8 /* SVGImageSwiftUI in Frameworks */,
 				D26BF13A2A9FACF20086C6CC /* RealityKitContent in Frameworks */,
+				D2018C752A9FAE9700AD8C7C /* XCAFootballDataClient in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D2018C762A9FAEC500AD8C7C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D2018C772A9FAEDB00AD8C7C /* StandingsTableView.swift */,
+				D216B66A2A9FEA650085D539 /* StandingsTabItemView.swift */,
+				D216B66C2A9FEE110085D539 /* TopScorersTableView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D2018C792A9FB06F00AD8C7C /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				D2018C7A2A9FB07D00AD8C7C /* StandingsTableObservable.swift */,
+				D216B66E2A9FEE4F0085D539 /* TopScorersTableObservable.swift */,
+			);
+			path = Observables;
+			sourceTree = "<group>";
+		};
+		D2018C7E2A9FB28200AD8C7C /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				D2018C7F2A9FB2EB00AD8C7C /* scorers.json */,
+				D2018C812A9FB2F900AD8C7C /* standings.json */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+		D21BD0BA2A9FD69C009C71B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D26BF12B2A9FACF20086C6CC = {
 			isa = PBXGroup;
 			children = (
 				D26BF1362A9FACF20086C6CC /* FootballOS */,
 				D26BF1372A9FACF20086C6CC /* Packages */,
 				D26BF1352A9FACF20086C6CC /* Products */,
+				D21BD0BA2A9FD69C009C71B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,11 +114,16 @@
 		D26BF1362A9FACF20086C6CC /* FootballOS */ = {
 			isa = PBXGroup;
 			children = (
+				D2018C7E2A9FB28200AD8C7C /* Stubs */,
+				D2018C792A9FB06F00AD8C7C /* Observables */,
+				D2018C762A9FAEC500AD8C7C /* Views */,
 				D26BF13B2A9FACF20086C6CC /* FootballOSApp.swift */,
 				D26BF13D2A9FACF20086C6CC /* ContentView.swift */,
 				D26BF13F2A9FACF30086C6CC /* Assets.xcassets */,
 				D26BF1442A9FACF30086C6CC /* Info.plist */,
 				D26BF1412A9FACF30086C6CC /* Preview Content */,
+				D2018C7C2A9FB0CB00AD8C7C /* FetchPhase.swift */,
+				D2018C832A9FB32200AD8C7C /* Utility.swift */,
 			);
 			path = FootballOS;
 			sourceTree = "<group>";
@@ -99,6 +162,8 @@
 			name = FootballOS;
 			packageProductDependencies = (
 				D26BF1392A9FACF20086C6CC /* RealityKitContent */,
+				D2018C742A9FAE9700AD8C7C /* XCAFootballDataClient */,
+				D21BD0BC2A9FD6B8009C71B8 /* SVGImageSwiftUI */,
 			);
 			productName = FootballOS;
 			productReference = D26BF1342A9FACF20086C6CC /* FootballOS.app */;
@@ -128,6 +193,10 @@
 				Base,
 			);
 			mainGroup = D26BF12B2A9FACF20086C6CC;
+			packageReferences = (
+				D2018C732A9FAE9700AD8C7C /* XCRemoteSwiftPackageReference "XCAFootballDataClient" */,
+				D21BD0BB2A9FD6B8009C71B8 /* XCRemoteSwiftPackageReference "SVGImageSwiftUI" */,
+			);
 			productRefGroup = D26BF1352A9FACF20086C6CC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -142,6 +211,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2018C802A9FB2EB00AD8C7C /* scorers.json in Resources */,
+				D2018C822A9FB2F900AD8C7C /* standings.json in Resources */,
 				D26BF1432A9FACF30086C6CC /* Preview Assets.xcassets in Resources */,
 				D26BF1402A9FACF30086C6CC /* Assets.xcassets in Resources */,
 			);
@@ -154,6 +225,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2018C7D2A9FB0CB00AD8C7C /* FetchPhase.swift in Sources */,
+				D216B66B2A9FEA650085D539 /* StandingsTabItemView.swift in Sources */,
+				D2018C782A9FAEDB00AD8C7C /* StandingsTableView.swift in Sources */,
+				D216B66D2A9FEE110085D539 /* TopScorersTableView.swift in Sources */,
+				D2018C842A9FB32200AD8C7C /* Utility.swift in Sources */,
+				D216B66F2A9FEE4F0085D539 /* TopScorersTableObservable.swift in Sources */,
+				D2018C7B2A9FB07D00AD8C7C /* StandingsTableObservable.swift in Sources */,
 				D26BF13E2A9FACF20086C6CC /* ContentView.swift in Sources */,
 				D26BF13C2A9FACF20086C6CC /* FootballOSApp.swift in Sources */,
 			);
@@ -356,7 +434,36 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		D2018C732A9FAE9700AD8C7C /* XCRemoteSwiftPackageReference "XCAFootballDataClient" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alfianlosari/XCAFootballDataClient";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+		D21BD0BB2A9FD6B8009C71B8 /* XCRemoteSwiftPackageReference "SVGImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alfianlosari/SVGImageSwiftUI";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
+		D2018C742A9FAE9700AD8C7C /* XCAFootballDataClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D2018C732A9FAE9700AD8C7C /* XCRemoteSwiftPackageReference "XCAFootballDataClient" */;
+			productName = XCAFootballDataClient;
+		};
+		D21BD0BC2A9FD6B8009C71B8 /* SVGImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D21BD0BB2A9FD6B8009C71B8 /* XCRemoteSwiftPackageReference "SVGImageSwiftUI" */;
+			productName = SVGImageSwiftUI;
+		};
 		D26BF1392A9FACF20086C6CC /* RealityKitContent */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = RealityKitContent;
