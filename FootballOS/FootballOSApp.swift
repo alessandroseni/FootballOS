@@ -17,7 +17,7 @@ struct FootballOSApp: App {
                 StandingsTabItemView()
                     .tabItem { Label("Standings", systemImage: "table.fill") }
                 
-                Text("Top Scorers")
+                TopScorersTabItemView()
                     .tabItem { Label("Top Scorers", systemImage: "soccerball.inverse") }
             }
         }

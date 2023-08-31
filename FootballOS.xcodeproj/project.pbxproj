@@ -23,6 +23,7 @@
 		D26BF13E2A9FACF20086C6CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26BF13D2A9FACF20086C6CC /* ContentView.swift */; };
 		D26BF1402A9FACF30086C6CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D26BF13F2A9FACF30086C6CC /* Assets.xcassets */; };
 		D26BF1432A9FACF30086C6CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D26BF1422A9FACF30086C6CC /* Preview Assets.xcassets */; };
+		D2ACEFCA2AA039BB0058B5E9 /* TopScorersTabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ACEFC92AA039BB0058B5E9 /* TopScorersTabItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		D26BF13F2A9FACF30086C6CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D26BF1422A9FACF30086C6CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D26BF1442A9FACF30086C6CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2ACEFC92AA039BB0058B5E9 /* TopScorersTabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopScorersTabItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				D2018C772A9FAEDB00AD8C7C /* StandingsTableView.swift */,
 				D216B66A2A9FEA650085D539 /* StandingsTabItemView.swift */,
 				D216B66C2A9FEE110085D539 /* TopScorersTableView.swift */,
+				D2ACEFC92AA039BB0058B5E9 /* TopScorersTabItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2018C7D2A9FB0CB00AD8C7C /* FetchPhase.swift in Sources */,
+				D2ACEFCA2AA039BB0058B5E9 /* TopScorersTabItemView.swift in Sources */,
 				D216B66B2A9FEA650085D539 /* StandingsTabItemView.swift in Sources */,
 				D2018C782A9FAEDB00AD8C7C /* StandingsTableView.swift in Sources */,
 				D216B66D2A9FEE110085D539 /* TopScorersTableView.swift in Sources */,
