@@ -7,8 +7,6 @@
 
 import SwiftUI
 
-let apiKey = "3ce84d540fcb448fbaf59217fcc1b3a2"
-
 @main
 struct FootballOSApp: App {
     var body: some Scene {
