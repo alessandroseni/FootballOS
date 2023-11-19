@@ -1,7 +1,7 @@
 # FootballOS
 
 ## Overview
-`FootballOS` is a SwiftUI football statistics application for VisionOS, developed as a learning project to explore new VisionOS features. This app provides up-to-date stats from major football leagues.
+`FootballOS` is a SwiftUI football statistics application for [visionOS](https://developer.apple.com/visionos/), developed as a learning project to explore new VisionOS features. This app provides up-to-date stats from major football leagues.
 
 ## Features
 - **Data from Top Competitions**: Get stats from leagues like EPL, Serie A, La Liga, Bundesliga, and more.
