@@ -14,6 +14,7 @@
 		D2018C802A9FB2EB00AD8C7C /* scorers.json in Resources */ = {isa = PBXBuildFile; fileRef = D2018C7F2A9FB2EB00AD8C7C /* scorers.json */; };
 		D2018C822A9FB2F900AD8C7C /* standings.json in Resources */ = {isa = PBXBuildFile; fileRef = D2018C812A9FB2F900AD8C7C /* standings.json */; };
 		D2018C842A9FB32200AD8C7C /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2018C832A9FB32200AD8C7C /* Utility.swift */; };
+		D20D27A12B09D1270087152A /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20D27A02B09D1270087152A /* Secret.swift */; };
 		D216B66B2A9FEA650085D539 /* StandingsTabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D216B66A2A9FEA650085D539 /* StandingsTabItemView.swift */; };
 		D216B66D2A9FEE110085D539 /* TopScorersTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D216B66C2A9FEE110085D539 /* TopScorersTableView.swift */; };
 		D216B66F2A9FEE4F0085D539 /* TopScorersTableObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D216B66E2A9FEE4F0085D539 /* TopScorersTableObservable.swift */; };
@@ -33,6 +34,7 @@
 		D2018C7F2A9FB2EB00AD8C7C /* scorers.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = scorers.json; sourceTree = "<group>"; };
 		D2018C812A9FB2F900AD8C7C /* standings.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = standings.json; sourceTree = "<group>"; };
 		D2018C832A9FB32200AD8C7C /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		D20D27A02B09D1270087152A /* Secret.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
 		D216B66A2A9FEA650085D539 /* StandingsTabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingsTabItemView.swift; sourceTree = "<group>"; };
 		D216B66C2A9FEE110085D539 /* TopScorersTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopScorersTableView.swift; sourceTree = "<group>"; };
 		D216B66E2A9FEE4F0085D539 /* TopScorersTableObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopScorersTableObservable.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				D2018C792A9FB06F00AD8C7C /* Observables */,
 				D2018C762A9FAEC500AD8C7C /* Views */,
 				D26BF13B2A9FACF20086C6CC /* FootballOSApp.swift */,
+				D20D27A02B09D1270087152A /* Secret.swift */,
 				D26BF13D2A9FACF20086C6CC /* ContentView.swift */,
 				D26BF13F2A9FACF30086C6CC /* Assets.xcassets */,
 				D26BF1442A9FACF30086C6CC /* Info.plist */,
@@ -232,6 +235,7 @@
 				D2ACEFCA2AA039BB0058B5E9 /* TopScorersTabItemView.swift in Sources */,
 				D216B66B2A9FEA650085D539 /* StandingsTabItemView.swift in Sources */,
 				D2018C782A9FAEDB00AD8C7C /* StandingsTableView.swift in Sources */,
+				D20D27A12B09D1270087152A /* Secret.swift in Sources */,
 				D216B66D2A9FEE110085D539 /* TopScorersTableView.swift in Sources */,
 				D2018C842A9FB32200AD8C7C /* Utility.swift in Sources */,
 				D216B66F2A9FEE4F0085D539 /* TopScorersTableObservable.swift in Sources */,
